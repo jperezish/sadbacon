@@ -1,0 +1,402 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+::-moz-selection {
+    background: #8BA98D;
+    text-shadow: none;
+}
+
+::selection {
+    background: #8BA98D;
+    text-shadow: none;
+}
+
+body {
+	background: url(/images/noise.png) repeat #BEB79B;
+}
+
+/* bands */
+
+.band.post {
+	background: url(/images/sadbacon-bottom-header-border.png) repeat-x,
+							url(/images/noise.png) repeat,
+							#E0DBBD;
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+
+.band.header {
+	background: url(/images/sadbacon-top-border.png) repeat-x,
+							url(/images/noise.png) repeat,
+							#BEB79B;
+}
+
+.band.footer {
+	background: url(/images/sadbacon-top-border.png) repeat-x,
+							url(/images/noise.png) repeat,
+							#BEB79B;
+	padding: 49px 0 14px 0;
+}
+
+/* ie multiple background image fallbacks */
+
+.ie .band.post {
+	background: url(/images/sadbacon-bottom-header-border.png) repeat-x #E3C78E;
+}
+
+.ie .band.header {
+	background: url(/images/sadbacon-top-border.png) repeat-x #BEB79B;
+}
+
+.ie .band.footer {
+	background: url(/images/sadbacon-top-border.png) repeat-x #BEB79B;
+}
+
+#title-end {
+	margin-bottom: 15px;
+}
+
+/* header */
+
+#sub-title {
+	margin-top: -55px;
+}
+
+#logo {
+	margin-top: 30px;
+}
+
+#logo img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* posts */
+
+.comic-panels img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+	border: 3px solid #333;
+}
+
+/* fonts */
+
+
+#sub-title h2 {
+	color: #333;
+	font-family: 'wendy_oneregular', sans-serif;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+}
+
+.post h2 {
+  font-family: 'corbenbold', Georgia, Times, serif;
+  color: #242424;
+}
+
+#four-oh-four {
+	padding-top: 20px;
+}
+
+#four-oh-four h1 {
+	line-height: 1.4em;
+	font-size: 4em;
+	font-family: 'nobilebold', Helvetica, Arial, sans-serif;
+  color: #c5000f;
+}
+
+#post-details {
+  font-family: 'nobilebold', Helvetica, Arial, sans-serif;
+  color: #424242;
+  border-right: 2px solid #424242;
+  vertical-align: middle;
+}
+
+#comic-series {
+  font-family: 'nobilebold', Helvetica, Arial, sans-serif;
+  color: #424242;
+  vertical-align: middle;
+}
+
+#article-lead {
+  font-family: 'nobilebold', Helvetica, Arial, sans-serif;
+  font-size: 1.4em;
+  line-height: 1.7em;
+  color: #424242;
+  padding-top: 20px;
+}
+
+.post p {
+  font-family: 'nobileregular', Helvetica, Arial, sans-serif;
+  font-size: 1.3em;
+  line-height: 1.6em;
+  color: #424242;
+}
+
+.post p a {
+  color: #00A0B0;
+  text-decoration: none;
+}
+
+.post p a:hover {
+  background: #C89B40;
+}
+
+.post p a:active {
+  background: #C1651A;
+}
+
+cite, em {
+  font-style: italic;
+}
+
+#article-lead cite {
+  font-family: 'nobilebold_italic', Helvetica, Arial, sans-serif;
+  font-size: 1.1em;
+  line-height: 1.4em;
+}
+
+cite a {
+  text-decoration: none;
+  color: #424242;
+}
+
+cite a:hover {
+  text-decoration: underline;
+  color: #424242;
+}
+
+#footer {
+  font-family: 'nobileregular', Helvetica, Arial, sans-serif;
+	  color: #424242;
+	}
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+
+		#post-details {
+		  font-size: 1.1em;
+		}
+
+		#comic-series {
+			font-size: 1.3em;
+		}
+
+		#sub-title {
+			text-align: right;
+			margin-top: -55px;
+		}
+
+		#four-oh-four {
+			padding-top: 15px;
+		}
+
+		#four-oh-four h1 {
+			line-height: 1.3em;
+			font-size: 3em;
+		}
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+		#post-details {
+		  font-size: 1.1em;
+		}
+
+		#comic-series {
+			font-size: 1.3em;
+		}
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+
+
+
+	}
+
+
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+		#post-details {
+			line-height: 1.2em;
+			font-size: 1.1em;
+			border-right: none;
+		}
+
+		#comic-series {
+			line-height: 1.3em;
+			font-size: 1.2em;
+		}
+
+		.band.header {
+			background: url(/images/noise.png) repeat;
+			background-color: #BEB79B;
+		}
+
+		#sub-title {
+			text-align: left;
+			font-size: 1em;
+			margin-top: 0;
+		}
+
+		#sub-title h2 {
+			line-height: 1em;
+			font-size: 1.8em;
+		}
+
+		#logo {
+			margin: 0;
+			padding: 0;
+		}
+
+		.post h2 {
+			padding-top: 15px;
+			margin: 0;
+		  font-size: 1.6em;
+		}
+
+		.band.post {
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+
+		#article-lead {
+		  font-size: 1.3em;
+		  line-height: 1.6em;
+		  padding-top: 5px;
+		}
+
+		.post p {
+		  font-size: 1.2em;
+		  line-height: 1.5em;
+		}
+
+		#article-lead cite {
+		  font-size: 1.3em;
+		  line-height: 1.6em;
+		}
+
+		#footer {
+			font-size: 1.1em;
+		}
+
+		#four-oh-four {
+			padding-top: 10px;
+		}
+
+		#four-oh-four h1 {
+			line-height: 1.3em;
+			font-size: 2em;
+		}
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+
+		#post-details {
+			line-height: 1em;
+			font-size: .9em;
+			border-right: none;
+		}
+
+		#comic-series {
+			line-height: 1em;
+			font-size: 1.1em;
+		}
+
+		.band.header {
+			background: url(/images/noise.png) repeat;
+			background-color: #BEB79B;
+		}
+
+		#sub-title {
+			text-align: left;
+			font-size: 1em;
+			margin-top: 0;
+		}
+
+		#sub-title h2 {
+			line-height: .8em;
+			font-size: 1.5em;
+		}
+
+		#logo {
+			margin: 0;
+			padding: 0;
+		}
+
+		.post h2 {
+			padding: 0;
+			margin: 0;
+		  font-size: 1.3em;
+		}
+
+		.band.post {
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+
+		#article-lead {
+		  font-size: 1.2em;
+		  line-height: 1.4em;
+		  padding-top: 5px;
+		}
+
+		.post p {
+		  font-size: 1.1em;
+		  line-height: 1.4em;
+		}
+
+		#article-lead cite {
+		  font-size: 1.2em;
+		  line-height: 1.4em;
+		}
+
+		#footer {
+			font-size: 1em;
+		}
+
+		#four-oh-four {
+			padding-top: 5px;
+		}
+
+		#four-oh-four h1 {
+			line-height: 1.2em;
+			font-size: 1.6em;
+		}
+
+	}
+
+

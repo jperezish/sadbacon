@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="UTF-8">
+	<title><%= create_title(item) %></title>
+	<meta name="Description" content="<%= create_meta_description(item) %>">
+	<meta name="robots" content="NOODP">
+    <meta name="googlebot" content="NOODP">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="/css/base.css">
+	<link rel="stylesheet" href="/css/skeleton.css">
+	<link rel="stylesheet" href="/css/webfonts.css">
+	<link rel="stylesheet" href="/css/layout.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="/images/favicon.ico">
+	<!-- <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"> -->
+
+</head>
+<body>
+	<div class="band header">
+		<div class="container">
+			<div id="logo" class="sixteen columns">
+				<a title="Sad Bacon - comics by Jason Perez" href="http://www.sadbacon.com"><img src="/images/SadBaconLogo400.png" alt="Logo for Sad Bacon."></a>
+			</div>
+			<div id="sub-title" class="twelve columns offset-by-four">
+				<h2 title="Next time I'll have two.">I have one comic.</h2>
+			</div>
+		</div><!-- end container -->
+	</div><!-- end band -->
+
+	<%= yield %>
+
+	<div class="band footer">
+		<div class="container">
+			<div class="ten columns offset-by-six">
+				<h5 id="footer">&copy; 2013 Jason Perez</h5>
+			</div>
+		</div><!-- container -->
+	</div><!-- end band -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-38353862-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</body>
+</html>

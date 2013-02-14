@@ -1,0 +1,18 @@
+<% render 'default' do %>
+  <div class="band post">
+  	<div class="container">
+  		<div class="fifteen columns offset-by-one">
+    		<h2><cite><%= item[:title] %></cite></h2>
+    	</div>
+    </div>
+    <div id="title-end" class="container">
+    	<div class="eight columns offset-by-one">
+    		<h5 id="post-details">by <%= item[:author] %>, posted on <%= get_pretty_date(item) %></h5>
+    		</div>
+			<div class="seven columns">
+    		<h4 id="comic-series"><%= item[:comic] %> series</h4>
+    	</div>
+    </div>
+      <%= yield %>
+  </div>
+<% end %>

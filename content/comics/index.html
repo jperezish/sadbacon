@@ -1,0 +1,22 @@
+---
+title: Sad Bacon comics
+---
+
+<% sorted_articles[0, 1].each do |post| %>
+  <div class='band post'>
+  	<div class="container">
+  		<div class="fifteen columns offset-by-one">
+    		<h2><cite><%= link_to post[:title], post.path %></cite></h2>
+    	</div>
+    </div>
+    <div id="title-end" class="container">
+    	<div class="eight columns offset-by-one">
+    		<h5 id="post-details">by <%= post[:author] %>, posted on <%= get_pretty_date(post) %></h5>
+    		</div>
+			<div class="seven columns">
+    		<h4 id="comic-series"><%= post[:comic] %> series</h4>
+    	</div>
+    </div>
+  	<%= post.compiled_content %>
+  </div>
+<% end %>
