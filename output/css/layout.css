@@ -17,6 +17,11 @@
 /* #Site Styles
 ================================================== */
 
+/* maxvoltar.com/archive/-webkit-font-smoothing */
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
 * {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -24,73 +29,90 @@
 }
 
 ::-moz-selection {
-    background: #8BA98D;
+    background: #333;
     text-shadow: none;
 }
 
 ::selection {
-    background: #8BA98D;
+    background: #E68A2E;
     text-shadow: none;
 }
 
 body {
-	background: url(/images/noise.png) repeat #BEB79B;
+	background: url(/images/noise.png) repeat #121212;
 }
 
-/* bands */
-
-.band.post {
-	background: url(/images/sadbacon-bottom-header-border.png) repeat-x,
-							url(/images/noise.png) repeat,
-							#E0DBBD;
-	padding-top: 25px;
-	padding-bottom: 50px;
-}
+/********************
+	BANDS
+*******************/
 
 .band.header {
-	background: url(/images/sadbacon-top-border.png) repeat-x,
-							url(/images/noise.png) repeat,
-							#BEB79B;
+	background: url(/images/noise.png) repeat #C90A00;
+	border-bottom: 3px dotted #DED6C9;
+}
+
+
+.band.header .container #logo {
+	height: auto;
+	max-width: 100%;
+	margin-left: 35px;
 }
 
 .band.footer {
-	background: url(/images/sadbacon-top-border.png) repeat-x,
-							url(/images/noise.png) repeat,
-							#BEB79B;
+	background: url(/images/noise.png) repeat #88D1CA;
 	padding: 49px 0 14px 0;
 }
 
-/* ie multiple background image fallbacks */
-
-.ie .band.post {
-	background: url(/images/sadbacon-bottom-header-border.png) repeat-x #E3C78E;
+.band.post {
+	background: url(/images/noise.png) repeat #121212;
+	padding-bottom: 50px;
+	border-bottom: 3px dotted #88D1CA;
+	border-top: 9px solid #333;
+	width:100%;
 }
 
-.ie .band.header {
-	background: url(/images/sadbacon-top-border.png) repeat-x #BEB79B;
+.band.post .container.header  {
+	height: 100%;
+	margin-top: -9px;
+	border-bottom: 3px solid #333;
+	border-left: 6px solid #333;
+	border-right: 6px solid #333;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
 
-.ie .band.footer {
-	background: url(/images/sadbacon-top-border.png) repeat-x #BEB79B;
+.band.post .container.header.home-title {
+	background-color: #DED6C9;
 }
+
+.band.post .container.header.comic-title {
+	background-color: #88D1CA;
+}
+
+.band.post .container.archive {
+	margin-bottom: 30px;
+}
+
+.band.post .container .archive-details {
+	border-bottom: 3px solid #333;
+}
+
+.container.archive {
+	margin-bottom: 30px;
+	margin-top: 15px;
+}
+
 
 #title-end {
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 
-/* header */
-
-#sub-title {
-	margin-top: -55px;
-}
-
-#logo {
-	margin-top: 30px;
-}
-
-#logo img {
-	max-width: 100%;
-	height: auto;
+.ie7 .browse-comics-nav {
+	display: none;
 }
 
 /* posts */
@@ -99,22 +121,201 @@ body {
 	max-width: 100%;
 	height: auto;
 	margin-bottom: 15px;
-	border: 3px solid #333;
 }
 
-/* fonts */
+.comic-icon {
+	max-width: 100%;
+	height: auto;
+	border: 5px solid #F7F6E4;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
 
+.comic-icon:hover {
+	border: 5px solid #E68A2E;
+}
 
-#sub-title h2 {
+.omega-image-fix {
+	margin-left: -10px;
+}
+
+.social-media {
+
+}
+
+.social-media img {
+	float: right;
+}
+.social-media-div {
+	padding-top: 25px;
+}
+
+/********************
+	NAVIGATION
+*******************/
+
+.main-nav {
+	margin-top: 15px;
+}
+
+.main-nav ul {
+	float: left;
+	margin-bottom: 0;
+}
+
+.main-nav li {
+	float: left;
+	margin-bottom: 0;
+}
+
+.main-nav a {
+	font-family: 'KomikaTitleWideRegular', sans-serif;
+	display: block;
+	font-size: 1.245em;
+	text-align: center;
+	padding: .9em;
+	text-decoration: none;
 	color: #333;
-	font-family: 'wendy_oneregular', sans-serif;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+	border-top: 3px solid #333;
+	border-left: 3px solid #333;
+	border-right: 3px solid #333;
 }
 
-.post h2 {
-  font-family: 'corbenbold', Georgia, Times, serif;
-  color: #242424;
+#home-nav {
+	background-color: #DED6C9;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 5px;
 }
+
+#home-nav:hover {
+	background-color: #EFE8DE;
+}
+
+#home-nav:active {
+	background-color: #A7A29B;
+}
+
+#comic-nav {
+	background-color: #88D1CA;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 10px;
+}
+
+#comic-nav:hover {
+	background-color: #ABE8E2;
+}
+
+#comic-nav:active {
+	background-color: #749D98;
+}
+
+.browse-comics-nav ul {
+	margin-top: 35px;
+	margin-bottom: 0px;
+}
+
+.browse-comics-nav li {
+	float: left;
+	margin-bottom: 0px;
+}
+
+.browse-comics-nav a, .browse-comics-nav h7 {
+	font-family: 'nobilebold', sans-serif;
+	display: block;
+	font-size: .8em;
+	text-align: center;
+	padding-top: .3em;
+	padding-bottom: .3em;
+	padding-left: .5em;
+	padding-right: .5em;
+	text-decoration: none;
+	color: #333;
+	background-color: #D4C098;
+	border-top: 3px solid #333;
+	border-left: 2px solid #333;
+	border-right: 2px solid #333;
+}
+
+.browse-comics-nav a:hover {
+	background-color: #E68A2E;
+}
+
+.browse-comics-nav a:active {
+	background-color: #C90A00;
+	color: #DED6C9;
+}
+
+#first-comic {
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 3px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 3px;
+}
+
+#previous-comic, #next-comic {
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+#last-comic {
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 5px;
+}
+
+.browse-comics-nav ul li .comic-viewer-inactive {
+	color: #A27484;
+	background-color: #EFE8DE;
+	border-top: 3px solid #A27484;
+	border-left: 2px solid #A27484;
+	border-right: 2px solid #A27484;
+}
+
+#comic-viewer-text {
+	font-family: 'nobileregular', Helvetica, Arial, sans-serif;
+  font-size: .9em;
+  line-height: 1em;
+  text-align: center;
+  color: #DED6C9;
+  background-color: #333;
+  width: 231px;
+  margin-left: -10px;
+  height: 20px;
+  padding-top: 2px;
+  border-top: 3px solid #333;
+	border-left: 2px solid #333;
+	border-right: 2px solid #333;
+}
+
+#comic-viewer-text span {
+	font-family: 'nobilebold', Helvetica, Arial, sans-serif;
+	color: #F7F6E4;
+}
+
+/********************
+	FONTS
+*******************/
 
 #four-oh-four {
 	padding-top: 20px;
@@ -122,29 +323,29 @@ body {
 
 #four-oh-four h1 {
 	line-height: 1.4em;
-	font-size: 4em;
-	font-family: 'nobilebold', Helvetica, Arial, sans-serif;
+	font-size: 3.5em;
+	font-family: 'KomikaTitleWideRegular', Helvetica, Arial, sans-serif;
   color: #c5000f;
 }
 
 #post-details {
-  font-family: 'nobilebold', Helvetica, Arial, sans-serif;
-  color: #424242;
-  border-right: 2px solid #424242;
-  vertical-align: middle;
+  font-family: 'KomikaTitleRegular', sans-serif;
+  color: #F7F6E4;
+  border-right: 3px solid #333;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 #comic-series {
-  font-family: 'nobilebold', Helvetica, Arial, sans-serif;
-  color: #424242;
-  vertical-align: middle;
+  font-family: 'KomikaTitleAxisRegular', sans-serif;
+  color: #F7F6E4;
 }
 
 #article-lead {
   font-family: 'nobilebold', Helvetica, Arial, sans-serif;
   font-size: 1.4em;
   line-height: 1.7em;
-  color: #424242;
+  color: #F7F6E4;
   padding-top: 20px;
 }
 
@@ -152,7 +353,7 @@ body {
   font-family: 'nobileregular', Helvetica, Arial, sans-serif;
   font-size: 1.3em;
   line-height: 1.6em;
-  color: #424242;
+  color: #F7F6E4;
 }
 
 .post p a {
@@ -161,11 +362,11 @@ body {
 }
 
 .post p a:hover {
-  background: #C89B40;
+  background: #A1C1BE;
 }
 
 .post p a:active {
-  background: #C1651A;
+  background: #F7F6E4;
 }
 
 cite, em {
@@ -178,20 +379,58 @@ cite, em {
   line-height: 1.4em;
 }
 
-cite a {
-  text-decoration: none;
-  color: #424242;
+#article-title {
+  font-family: 'KomikaTitleAxisRegular', Georgia, Times, serif;
+  color: #333;
+  padding-bottom: 10px;
+  padding-top: 23px;
 }
 
-cite a:hover {
+.article-sub {
+  font-family: 'KomikaTitleWideRegular', Georgia, Times, serif;
+  color: #F7F6E4;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.archive-title a {
+	color: #F7F6E4;
+}
+
+#article-title a {
+  text-decoration: none;
+  font-style: normal;
+  color: #333;
+}
+
+#article-title a:hover {
   text-decoration: underline;
-  color: #424242;
 }
 
 #footer {
   font-family: 'nobileregular', Helvetica, Arial, sans-serif;
 	  color: #424242;
+	  padding-bottom: 20px;
 	}
+
+.archive .archive-details #article-title {
+	font-family: 'nobilebold', Helvetica, Arial, sans-serif;
+	font-size: 1.8em;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.archive-title a {
+  font-style: normal;
+  font-family: 'KomikaTitleWideRegular', Georgia, Times, serif;
+}
+
+.archive-title a:hover {
+  text-decoration: none;
+  background-color: #F7F6E4;
+  color: #424242;
+}
+
 
 /* #Page Styles
 ================================================== */
@@ -202,17 +441,20 @@ cite a:hover {
 	/* Smaller than standard 960 (devices and browsers) */
 	@media only screen and (max-width: 959px) {
 
+		.main-nav {
+			margin-top: 16px;
+		}
+
+		.main-nav a {
+			font-size: 1.1em;
+		}
+
 		#post-details {
 		  font-size: 1.1em;
 		}
 
 		#comic-series {
 			font-size: 1.3em;
-		}
-
-		#sub-title {
-			text-align: right;
-			margin-top: -55px;
 		}
 
 		#four-oh-four {
@@ -223,28 +465,24 @@ cite a:hover {
 			line-height: 1.3em;
 			font-size: 3em;
 		}
+
+		.browse-comics-nav ul {
+			width: 235px;
+			margin-left: -31px;
+		}
+
+		#comic-viewer-text {
+		  width: 231px;
+		  margin-left: -41px;
+		}
+
 	}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
-	@media only screen and (min-width: 768px) and (max-width: 959px) {
-
-		#post-details {
-		  font-size: 1.1em;
-		}
-
-		#comic-series {
-			font-size: 1.3em;
-		}
-	}
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
 
 	/* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {
-
-
-
-	}
-
-
+	@media only screen and (max-width: 767px) {}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -260,29 +498,26 @@ cite a:hover {
 			font-size: 1.2em;
 		}
 
-		.band.header {
-			background: url(/images/noise.png) repeat;
-			background-color: #BEB79B;
+		.band.header .container #logo {
+			margin-left: 0;
+			width: 50%;
 		}
 
-		#sub-title {
-			text-align: left;
+		.band.post .container.header  {
+			margin-top: -14px;
+		}
+
+		.main-nav {
 			font-size: 1em;
-			margin-top: 0;
 		}
 
-		#sub-title h2 {
-			line-height: 1em;
-			font-size: 1.8em;
-		}
-
-		#logo {
-			margin: 0;
-			padding: 0;
+		.main-nav ul {
+			margin-top: 2px;
 		}
 
 		.post h2 {
-			padding-top: 15px;
+			padding-top: 5px;
+			padding-left: 10px;
 			margin: 0;
 		  font-size: 1.6em;
 		}
@@ -320,10 +555,43 @@ cite a:hover {
 			line-height: 1.3em;
 			font-size: 2em;
 		}
+
+		.browse-comics-nav ul {
+			width: 235px;
+			margin-left: 0px;
+			margin-top: 0;
+		}
+
+		#comic-viewer-text {
+		  width: 231px;
+		  margin-left: 0px;
+		}
+
+		#article-title {
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+
+		.social-media img {
+			margin-top: -40px;
+			margin-right: 10px;
+		}
+
+		.social-media-div {
+			padding-top: 0;
+		}
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
+
+		.band.post .container.header  {
+			border-left: none;
+			border-right: none;
+			margin-left: 0;
+			margin-right: 0;
+			width: 100%;
+		}
 
 		#post-details {
 			line-height: 1em;
@@ -336,29 +604,33 @@ cite a:hover {
 			font-size: 1.1em;
 		}
 
-		.band.header {
-			background: url(/images/noise.png) repeat;
-			background-color: #BEB79B;
+		.band.header .container #logo {
+			height: auto;
+			width: 50%;
+			margin-left: 5px;
 		}
 
-		#sub-title {
+		.main-nav {
 			text-align: left;
 			font-size: 1em;
 			margin-top: 0;
 		}
 
-		#sub-title h2 {
+		.main-nav ul {
+			margin-top: 2px;
+		}
+
+		.main-nav a {
+			padding: .5em;
+		}
+
+		.main-nav h2 {
 			line-height: .8em;
 			font-size: 1.5em;
 		}
 
-		#logo {
-			margin: 0;
-			padding: 0;
-		}
-
 		.post h2 {
-			padding: 0;
+			padding-left: 5%;
 			margin: 0;
 		  font-size: 1.3em;
 		}
@@ -395,6 +667,31 @@ cite a:hover {
 		#four-oh-four h1 {
 			line-height: 1.2em;
 			font-size: 1.6em;
+		}
+
+		.browse-comics-nav ul {
+			width: 235px;
+			margin-left: 10px;
+			margin-top: 0;
+		}
+
+		#comic-viewer-text {
+		  width: 231px;
+		  margin-left: 10px;
+		}
+
+		#article-title {
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+
+		.social-media img {
+			margin-top: -40px;
+			margin-right: 10px;
+		}
+
+		.social-media-div {
+			padding-top: 0;
 		}
 
 	}

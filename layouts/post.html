@@ -1,16 +1,31 @@
 <% render 'default' do %>
   <div class="band post">
-  	<div class="container">
-  		<div class="fifteen columns offset-by-one">
-    		<h2><cite><%= item[:title] %></cite></h2>
-    	</div>
+    <div class="container header home-title">
+      <div class="sixteen columns clearfix">
+        <div class="eight columns alpha">
+          <h2 id="article-title"><cite><%= item[:title] %></cite></h2>
+        </div>
+        <div class="eight columns omega offset-by-three clearfix browse-comics-nav">
+          <div class="five columns alpha">
+            <ul class="clearfix">
+              <li><%= first_comic %></li>
+              <li><%= previous_comic %></li>
+              <li><%= next_comic %></li>
+              <li><%= latest_comic %></li>
+            </ul>
+          </div>
+          <div class="five columns omega">
+            <h5 id="comic-viewer-text" title="This comic viewer will step through all of the comics posted on this site.">viewing <span><%= current_comic_number %></span> out of <span><%= comic_count %></span> comics.</h5>
+          </div>
+        </div>
+      </div>
     </div>
     <div id="title-end" class="container">
     	<div class="eight columns offset-by-one">
     		<h5 id="post-details">by <%= item[:author] %>, posted on <%= get_pretty_date(item) %></h5>
     		</div>
 			<div class="seven columns">
-    		<h4 id="comic-series"><%= item[:comic] %> series</h4>
+    		<h4 id="comic-series"><%= item[:comic] %></h4>
     	</div>
     </div>
       <%= yield %>

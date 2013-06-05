@@ -2,8 +2,10 @@
 comic: "The Narwhal Chronicles"
 title: "The Chills"
 description: "We meet the narwhal Jerry and his happy go lucky beluga whale pal Muk"
+excerpt: "We meet the narwhal Jerry and his happy go lucky beluga whale pal Muk"
 type: comic
 created_at: 2013-02-10
+updated_at:
 author: Jason Perez
 kind: article
 ---

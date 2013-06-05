@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://sadbacon.com/</id>
+  <title>Sad Bacon</title>
+  <updated>2013-04-12T07:00:00Z</updated>
+  <link rel="alternate" href="http://sadbacon.com/"/>
+  <link rel="self" href="http://sadbacon.com/atom.xml"/>
+  <author>
+    <name>Jason Perez</name>
+    <uri>http://sadbacon.com</uri>
+  </author>
+  <icon>http://sadbacon.com/images/favicon.ico</icon>
+  <logo>http://sadbacon.com/images/sadbacon-site-logo-alt.png</logo>
+  <entry>
+    <id>tag:sadbacon.com,2013-04-12:/2013/04/onset-of-fear/</id>
+    <title type="html">Onset of Fear</title>
+    <published>2013-04-12T07:00:00Z</published>
+    <updated>2013-04-12T07:00:00Z</updated>
+    <link rel="alternate" href="http://sadbacon.com/2013/04/onset-of-fear/"/>
+    <content type="html">&lt;div class="container comic"&gt;
+	&lt;div class="fourteen columns offset-by-one comic-panels"&gt;
+		&lt;img src="/images/narwhal-chronicles-onset-of-fear-01.png" alt="The Narwhal Chronicles - Onset of Fear" /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <summary type="html">Jerry begins a journey of fear</summary>
+  </entry>
+  <entry>
+    <id>tag:sadbacon.com,2013-03-19:/2013/03/option-53-part-1/</id>
+    <title type="html">Option 53 Part 1</title>
+    <published>2013-03-19T07:00:00Z</published>
+    <updated>2013-03-19T07:00:00Z</updated>
+    <link rel="alternate" href="http://sadbacon.com/2013/03/option-53-part-1/"/>
+    <content type="html">&lt;div class="container comic"&gt;
+	&lt;div class="eight columns comic-panels"&gt;
+		&lt;img src="/images/option-53-part-1-panel-01.png" alt="Option 53 - Part 1 - panel 1" /&gt;
+	&lt;/div&gt;
+	&lt;div class="eight columns comic-panels"&gt;
+		&lt;img src="/images/option-53-part-1-panel-02.png" alt="Option 53 - Part 1 - panel 2" /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="container comic"&gt;
+	&lt;div class="eight columns comic-panels"&gt;
+		&lt;img src="/images/option-53-part-1-panel-03.png" alt="Option 53 - Part 1 - panel 3" /&gt;
+	&lt;/div&gt;
+	&lt;div class="eight columns comic-panels"&gt;
+		&lt;img src="/images/option-53-part-1-panel-04.png" alt="Option 53 - Part 1 - panel 4" /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="container comic"&gt;
+	&lt;div class="eight columns comic-panels"&gt;
+		&lt;img src="/images/option-53-part-1-panel-05.png" alt="Option 53 - Part 1 - panel 5" /&gt;
+	&lt;/div&gt;
+	&lt;div class="eight columns comic-panels"&gt;
+		&lt;img src="/images/option-53-part-1-panel-06-07.png" alt="Option 53 - Part 1 - panels 6 and 7" /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="container comic"&gt;
+	&lt;div class="eight columns comic-panels"&gt;
+		&lt;img src="/images/option-53-part-1-panel-08-09.png" alt="Option 53 - Part 1 - panels 8 and 9" /&gt;
+	&lt;/div&gt;
+	&lt;div class="eight columns comic-panels"&gt;
+		&lt;img src="/images/option-53-part-1-panel-10-11.png" alt="Option 53 - Part 1 - panels 10 and 11" /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <summary type="html">Is it a mini horse or a pony? Because those two things are different.</summary>
+  </entry>
+  <entry>
+    <id>tag:sadbacon.com,2013-03-12:/2013/03/two-avengers/</id>
+    <title type="html">Two Avengers</title>
+    <published>2013-03-12T07:00:00Z</published>
+    <updated>2013-03-12T07:00:00Z</updated>
+    <link rel="alternate" href="http://sadbacon.com/2013/03/two-avengers/"/>
+    <content type="html">&lt;div class="container comic"&gt;
+	&lt;div class="fourteen columns offset-by-two comic-panels"&gt;
+		&lt;img src="/images/two-avengers-panel-all.png" alt="two avengers, all panels in one." /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <summary type="html">Stop messing around. Seriously.</summary>
+  </entry>
+  <entry>
+    <id>tag:sadbacon.com,2013-03-05:/2013/03/21-year-old-me/</id>
+    <title type="html">21 year old me</title>
+    <published>2013-03-05T08:00:00Z</published>
+    <updated>2013-03-05T08:00:00Z</updated>
+    <link rel="alternate" href="http://sadbacon.com/2013/03/21-year-old-me/"/>
+    <content type="html">&lt;div class="container comic"&gt;
+	&lt;div class="twelve columns offset-by-two comic-panels"&gt;
+		&lt;img src="/images/21-year-old-me-panel-01.png" alt="21 year old me panel 1" /&gt;
+	&lt;/div&gt;
+	&lt;!-- more --&gt;
+	&lt;div class="twelve columns offset-by-two comic-panels"&gt;
+		&lt;img src="/images/21-year-old-me-panel-02.png" alt="21 year old me panel 2" /&gt;
+	&lt;/div&gt;
+	&lt;div class="twelve columns offset-by-two comic-panels"&gt;
+		&lt;img src="/images/21-year-old-me-panel-03.png" alt="21 year old me panel 3" /&gt;
+	&lt;/div&gt;
+	&lt;div class="twelve columns offset-by-two"&gt;
+		&lt;div class="five alpha columns comic-panels"&gt;
+			&lt;img src="/images/21-year-old-me-panel-04.png" alt="21 year old me panel 4" /&gt;
+		&lt;/div&gt;
+		&lt;div class="five omega columns comic-panels"&gt;
+			&lt;img src="/images/21-year-old-me-panel-05.png" alt="21 year old me panel 5" /&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="twelve columns offset-by-two comic-panels"&gt;
+		&lt;img src="/images/21-year-old-me-panel-06.png" alt="21 year old me panel 6" /&gt;
+	&lt;/div&gt;
+	&lt;div class="twelve columns offset-by-two comic-panels"&gt;
+		&lt;img src="/images/21-year-old-me-panel-07.png" alt="21 year old me panel 7" /&gt;
+	&lt;/div&gt;
+	&lt;div class="twelve columns offset-by-two comic-panels"&gt;
+		&lt;img src="/images/21-year-old-me-panel-08.png" alt="21 year old me panel 8" /&gt;
+	&lt;/div&gt;
+	&lt;div class="twelve columns offset-by-two comic-panels"&gt;
+		&lt;img src="/images/21-year-old-me-panel-09.png" alt="21 year old me panel 9" /&gt;
+	&lt;/div&gt;
+	&lt;div class="twelve columns offset-by-two comic-panels"&gt;
+		&lt;img src="/images/21-year-old-me-panel-10.png" alt="21 year old me panel 10" /&gt;
+	&lt;/div&gt;
+	&lt;div class="twelve columns offset-by-two comic-panels"&gt;
+		&lt;img src="/images/21-year-old-me-panel-11.png" alt="21 year old me panel 11" /&gt;
+	&lt;/div&gt;
+	&lt;div class="twelve columns offset-by-two comic-panels"&gt;
+		&lt;img src="/images/21-year-old-me-panel-12.png" alt="21 year old me panel 12" /&gt;
+	&lt;/div&gt;
+	&lt;div class="twelve columns offset-by-two comic-panels"&gt;
+		&lt;img src="/images/21-year-old-me-panel-13.png" alt="21 year old me panel 13" /&gt;
+	&lt;/div&gt;
+	&lt;div class="twelve columns offset-by-two comic-panels"&gt;
+		&lt;img src="/images/21-year-old-me-panel-14.png" alt="21 year old me panel 14" /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="container article-text"&gt;
+	&lt;div class="fifteen columns offset-by-one"&gt;
+		&lt;p id="article-lead"&gt;I&amp;#39;ve been bugged for quite some time now about how time travel is handled in Back to the Future. There&amp;#39;s even a &lt;a title="How Time Travel Works (and doesn&amp;#39;t) in Back To The Future." href="http://www.overthinkingit.com/2009/01/16/how-time-travel-works-in-back-to-the-future/"&gt;great analytical read&lt;/a&gt; available to help try and dissect the various theories, but I take no comfort in it.&lt;/p&gt;
+
+		&lt;p&gt;Maybe the Back to the Future sequels in general just irk me and I&amp;#39;m having trouble thinking about the first one as a stand alone work. I think that&amp;#39;s more likely. I mean the more you go into the well of time travel the more you realize anything&amp;#39;s possible and then you&amp;#39;ve got this big ass rat&amp;#39;s nest of a story and the whole thing is a giant cluster of a parody of itself. &lt;em&gt;CURSE YOU BACK TO THE FUTURE!&lt;/em&gt;&lt;/p&gt;
+
+		&lt;p&gt;Also I&amp;#39;ve been reading a lot of those &lt;a title="My kids love the hell out of these books." href="http://en.wikipedia.org/wiki/Laura_Numeroff#If_You_Give....E2.84.A2"&gt;If you lead a monkey to a river&lt;/a&gt; books to my kids. We all love the cadence of the stories and I was slightly influenced by that. Maybe I&amp;#39;ll do a more direct interpretation of one of those at some point.&lt;/p&gt;
+
+		&lt;h4 class="article-sub"&gt;Some production notes&lt;/h4&gt;
+
+		&lt;p&gt;I drew the first two comics and some of the first panels of this one many moons ago. The last panels look a bit different. I decided, screw it. It&amp;#39;s a hodge podge thing and bam, it exists.&lt;/p&gt;
+
+		&lt;p&gt;I also have a ton of items on my todo list for this site and I&amp;#39;m doing bits and bits when I can. To save time I decided to look for a nice font (on the list: create font from my handwriting, priority: low) to use in the comics as opposed to handwriting them. I&amp;#39;m also doing this because my handwriting isn&amp;#39;t the best and I fall asleep in the middle of inking (yawn...). I thought high school drafting classes using those god damn short, stubby Rapidograph Technical Pens with the fricking eraser shield would&amp;#39;ve turned me into a master class lettering robot... maybe it&amp;#39;s some sort of dormant &lt;a title="A good book I read a while back about a programming daemon." href="http://en.wikipedia.org/wiki/Daemon_(technothriller_series)"&gt;daemon&lt;/a&gt; that has yet to be triggered. &lt;em&gt;WE SHALL SEE&lt;/em&gt;. I may end up always using a font since I see that the &lt;a title="A very informative article on lettering." href="http://www.blambot.com/handlettering.shtml"&gt;technique for lettering&lt;/a&gt; seems to be eerily similar to my past experience in drafting class.&lt;/p&gt;
+
+		&lt;p&gt;In the meantime I&amp;#39;m using a nice little font called &lt;a title="This is the font I used in this comic." href="http://www.dafont.com/shaky-hand-some-comic.font"&gt;"Shaky Hand Some Comic"&lt;/a&gt; by &lt;a title="This is the site for the dude that made the font I used in this comic." href="http://www.typographicdesign.de/"&gt;Manuel Viergutz&lt;/a&gt;.&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <summary type="html">Time travel is possible... right? I have no idea. Stupid Back to the Future.</summary>
+  </entry>
+  <entry>
+    <id>tag:sadbacon.com,2013-02-18:/2013/02/stupid-little-birds/</id>
+    <title type="html">Stupid Little Birds</title>
+    <published>2013-02-18T08:00:00Z</published>
+    <updated>2013-02-18T08:00:00Z</updated>
+    <link rel="alternate" href="http://sadbacon.com/2013/02/stupid-little-birds/"/>
+    <content type="html">&lt;div class="container comic"&gt;
+	&lt;div class="eight columns comic-panels"&gt;
+		&lt;img src="/images/molly-finkle-stupid-little-birds-panel-01.png" alt="Molly Finkle - Stupid Little Birds panel 1" /&gt;
+	&lt;/div&gt;
+	&lt;!-- more --&gt;
+	&lt;div class="eight columns comic-panels"&gt;
+		&lt;img src="/images/molly-finkle-stupid-little-birds-panel-02.png" alt="Molly Finkle - Stupid Little Birds panel 2" /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="container comic"&gt;
+	&lt;div class="eight columns comic-panels"&gt;
+		&lt;img src="/images/molly-finkle-stupid-little-birds-panel-03.png" alt="Molly Finkle - Stupid Little Birds panel 3" /&gt;
+	&lt;/div&gt;
+	&lt;div class="eight columns comic-panels"&gt;
+		&lt;img src="/images/molly-finkle-stupid-little-birds-panel-04.png" alt="Molly Finkle - Stupid Little Birds panel 4" /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="container comic"&gt;
+	&lt;div class="eight columns clearfix"&gt;
+		&lt;div class="eight columns alpha comic-panels"&gt;
+			&lt;img src="/images/molly-finkle-stupid-little-birds-panel-05.png" alt="Molly Finkle - Stupid Little Birds panel 5" /&gt;
+		&lt;/div&gt;
+		&lt;div class="eight columns omega comic-panels"&gt;
+			&lt;img class="omega-image-fix" src="/images/molly-finkle-stupid-little-birds-panel-06.png" alt="Molly Finkle - Stupid Little Birds panel 6" /&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="eight columns comic-panels"&gt;
+			&lt;img src="/images/molly-finkle-stupid-little-birds-panel-07.png" alt="Molly Finkle - Stupid Little Birds panel 6" /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="container article-text"&gt;
+	&lt;div class="fifteen columns offset-by-one"&gt;
+		&lt;p id="article-lead"&gt;Something&amp;#39;s gone wrong at Molly Finkle&amp;#39;s nest. What could it be? A lovebirds struggle? Eggs cracked (that won&amp;#39;t go over easy)? Another egg pun? Or is it a &lt;em&gt;hard boiled blood fest?!&lt;/em&gt; This and much more shall be revealed in the &lt;cite&gt;Molly Finkle&lt;cite&gt; series.
+
+		&lt;p&gt;There are a ton of little birds around my house. Sparrows I think. Well a while back this one sparrow built a nest near my back door in the wisteria vine that&amp;#39;s wrapped around the porch. It never came close to me, obviously. When I&amp;#39;d go outside that back door the first thing I&amp;#39;d here is that chirping. Chirping from a distance. It would sit there, perched on something, chirping its little beak off. I&amp;#39;d like to imagine it just being really pissed and screaming at me to get the hell away from its nest. Well, you stupid little bird, my house was here first and technically you built your decrepit excuse for a domicile on my house. So suck it! It only lasted a few days and then I suppose it must&amp;#39;ve found a more secure location to hatch some eggs.&lt;/p&gt;
+		&lt;p&gt;And then there&amp;#39;s the case of the single lowly crow getting chased by a pack of these damn sparrows. I feel like I&amp;#39;ve seen this exact scenario play out like 1000 times over my life. After a while I just start making up stories about this. I mean the reason they&amp;#39;re chasing the sparrow can&amp;#39;t simply be that the crow was too close to their area, can it? &lt;cite&gt;Stupid little birds&lt;cite&gt;.
+		&lt;p&gt;One additional note about color palettes. I personally would just do everything in grayscale because I&amp;#39;m a bit challenged in the whole color matching department (and the lettering and line weight departments as well... okay I&amp;#39;m simply challenged in general). Since this is the case I'm constantly referencing &lt;a title="A great reference for color palettes." href="http://www.colourlovers.com/"&gt;Colour Lovers&lt;/a&gt; and &lt;a title="I use this site to get variations of the colors I find on Colour Lovers." href="http://colorschemedesigner.com/"&gt;Color Scheme Designer&lt;/a&gt;. I&amp;#39;ve found these two sites to be invaluable. For this particular comic I used the &lt;a title="I used this palette for the final panel." href="http://www.colourlovers.com/palette/110258/sunset_at_the_sea"&gt;sunset at sea&lt;/a&gt; palette. It&amp;#39;s purty.
+	
+
+&lt;/p&gt;&lt;/cite&gt;&lt;/cite&gt;&lt;/p&gt;&lt;/cite&gt;&lt;/cite&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+</content>
+    <summary type="html">Stupid little birds are so annoying.</summary>
+  </entry>
+  <entry>
+    <id>tag:sadbacon.com,2013-02-10:/2013/02/the-chills/</id>
+    <title type="html">The Chills</title>
+    <published>2013-02-10T08:00:00Z</published>
+    <updated>2013-02-10T08:00:00Z</updated>
+    <link rel="alternate" href="http://sadbacon.com/2013/02/the-chills/"/>
+    <content type="html">&lt;div class="container comic"&gt;
+	&lt;div class="six columns comic-panels"&gt;
+		&lt;img src="/images/the-narwhal-chronicles-the-chills-panel-01.png" alt="The Narwhal Chronicles - The Chills panel 1" /&gt;
+	&lt;/div&gt;
+	&lt;div class="nine columns comic-panels"&gt;
+		&lt;img src="/images/the-narwhal-chronicles-the-chills-panel-02.png" alt="The Narwhal Chronicles - The Chills panel 2" /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="container comic"&gt;
+	&lt;div class="six columns comic-panels"&gt;
+		&lt;img src="/images/the-narwhal-chronicles-the-chills-panel-03.png" alt="The Narwhal Chronicles - The Chills panel 3" /&gt;
+	&lt;/div&gt;
+	&lt;div class="nine columns comic-panels"&gt;
+		&lt;img src="/images/the-narwhal-chronicles-the-chills-panel-04.png" alt="The Narwhal Chronicles - The Chills panel 4" /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="container comic"&gt;
+	&lt;div class="nine columns comic-panels"&gt;
+		&lt;img src="/images/the-narwhal-chronicles-the-chills-panel-05.png" alt="The Narwhal Chronicles - The Chills panel 5" /&gt;
+	&lt;/div&gt;
+	&lt;div class="six columns comic-panels"&gt;
+		&lt;img src="/images/the-narwhal-chronicles-the-chills-panel-06.png" alt="The Narwhal Chronicles - The Chills panel 6" /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="container article-text"&gt;
+	&lt;div class="fifteen columns offset-by-one"&gt;
+		&lt;p id="article-lead"&gt;&lt;cite&gt;The Narwhal Chronicles&lt;/cite&gt; tells the story of Jerry, a paranoid and grumpy narwhal residing in the arctic. His friend, Muktuk, is a happy go lucky dimwit. Jerry has many fears.&lt;/p&gt;
+
+		&lt;p&gt;This is the first comic in one of the series of comics I&amp;#39;d like to do. I&amp;#39;ve been floating this idea around for years and I believe I actually drew this comic a couple of years ago. It seems like an appropriate topic for the introduction of this comic since the flu is is smacking everyone right in the face right now. The office is completely filled with sick people.&lt;/p&gt;
+		&lt;p&gt;Every meeting has become a hackfest. To take my mind off of it I&amp;#39;ve made a game out of writing the sicko&amp;#39;s names down along with some main stat categories: a cough, sneeze, sniffle, a single instance of a look of despair, a woe-is-me moan. I award the woe-is-me moan a higher point value if it results in someone else in the room providing a consoling comment to the moaner (e.g. "Wow Pam that cold is really bad. You should go home and get some rest."). No extra points if the comment is a neutral description of the commenter&amp;#39;s own fears of getting sick (e.g. "That's a bad cough Pam."). Pam won that day. I find the whole thing to be a bit cathartic.&lt;/p&gt;
+		&lt;p&gt;I didn't have a name for Jerry's friend until I saw &lt;a title="It's the Alaska episode." href="http://youtu.be/oU_D4T7p7Mw"&gt;this old episode&lt;/a&gt; of Bizarre Foods on TV the other day. &lt;a title="A meal made from frozen whale skin and blubber." href="http://en.wikipedia.org/wiki/Muktuk"&gt;Muktuk&lt;/a&gt; seems appropriate.&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <summary type="html">We meet the narwhal Jerry and his happy go lucky beluga whale pal Muk</summary>
+  </entry>
+</feed>

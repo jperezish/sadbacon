@@ -4,19 +4,34 @@ title: Comics by Jason Perez
 
 <% sorted_articles[0, 1].each do |post| %>
   <div class='band post'>
-  	<div class="container">
-  		<div class="fifteen columns offset-by-one">
-    		<h2><cite><%= link_to post[:title], post.path %></cite></h2>
-    	</div>
+    <div class="container header home-title">
+      <div class="sixteen columns clearfix">
+        <div class="eight columns alpha">
+          <h2 id="article-title"><cite><%= link_to post[:title], post.path %></cite></h2>
+        </div>
+        <div class="eight columns omega offset-by-three clearfix browse-comics-nav">
+          <div class="five columns alpha">
+            <ul class="clearfix">
+              <li><%= first_comic %></li>
+              <li><a title="View the previous comic in the chronological order." id="previous-comic" href="/2013/03/option-53-part-1/">&#x25C2; previous</a></li>
+              <li><h7 id="next-comic" title="View the next comic in the chronological order." class="comic-viewer-inactive">next &#x25B8;</h7></li>
+              <li><h7 id="last-comic" title="View the latest posted comic." class="comic-viewer-inactive">last &#x25B8;&#x25B8;</h7></li>
+            </ul>
+          </div>
+          <div class="five columns omega">
+            <h5 id="comic-viewer-text" title="This comic viewer will step through all of the comics posted on this site.">viewing <span>6</span> out of <span>6</span> comics.</h5>
+          </div>
+        </div>
+      </div>
     </div>
     <div id="title-end" class="container">
-    	<div class="eight columns offset-by-one">
-    		<h5 id="post-details">by <%= post[:author] %>, posted on <%= get_pretty_date(post) %></h5>
-    		</div>
-			<div class="seven columns">
-    		<h4 id="comic-series"><%= post[:comic] %> series</h4>
-    	</div>
+      <div class="eight columns offset-by-one">
+        <h5 id="post-details">by <%= post[:author] %>, posted on <%= get_pretty_date(post) %></h5>
+        </div>
+      <div class="seven columns">
+        <h4 id="comic-series"><%= post[:comic] %></h4>
+      </div>
     </div>
-  	<%= post.compiled_content %>
+    <%= post.compiled_content %>
   </div>
 <% end %>

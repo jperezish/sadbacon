@@ -3,36 +3,12 @@ WEB FONTS
 ********************/
 
 @font-face {
-    font-family: 'corbenbold';
-    src: url('corben-bold-webfont-eot.eot');
-    src: url('corben-bold-webfont-eot.eot?#iefix') format('embedded-opentype'),
-         url('corben-bold-webfont-woff.woff') format('woff'),
-         url('corben-bold-webfont.ttf') format('truetype'),
-         url('corben-bold-webfont-svg.svg#corbenbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
     font-family: 'nobileitalic';
     src: url('nobile_italic-webfont-eot.eot');
     src: url('nobile_italic-webfont-eot.eot?#iefix') format('embedded-opentype'),
          url('nobile_italic-webfont-woff.woff') format('woff'),
          url('nobile_italic-webfont.ttf') format('truetype'),
          url('nobile_italic-webfont-svg.svg#nobileitalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'corbenregular';
-    src: url('corben-regular-webfont-eot.eot');
-    src: url('corben-regular-webfont-eot.eot?#iefix') format('embedded-opentype'),
-         url('corben-regular-webfont-woff.woff') format('woff'),
-         url('corben-regular-webfont.ttf') format('truetype'),
-         url('corben-regular-webfont-svg.svg#corbenregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -75,13 +51,39 @@ WEB FONTS
 }
 
 @font-face {
-    font-family: 'wendy_oneregular';
-    src: url('wendyone-regular-webfont-eot.eot');
-    src: url('wendyone-regular-webfont-eot.eot?#iefix') format('embedded-opentype'),
-         url('wendyone-regular-webfont-woff.woff') format('woff'),
-         url('wendyone-regular-webfont.ttf') format('truetype'),
-         url('wendyone-regular-webfont-svg.svg#wendy_oneregular') format('svg');
+    font-family: 'KomikaTitleRegular';
+    src: url('KomikaTitle-webfont-eot.eot');
+    src: url('KomikaTitle-webfont-eot.eot?#iefix') format('embedded-opentype'),
+         url('KomikaTitle-webfont-woff.woff') format('woff'),
+         url('KomikaTitle-webfont-ttf.ttf') format('truetype'),
+         url('KomikaTitle-webfont-svg.svg#KomikaTitleRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'KomikaTitleWideRegular';
+    src: url('KomikaTitle-Wide-webfont-eot.eot');
+    src: url('KomikaTitle-Wide-webfont-eot.eot?#iefix') format('embedded-opentype'),
+         url('KomikaTitle-Wide-webfont-woff.woff') format('woff'),
+         url('KomikaTitle-Wide-webfont-ttf.ttf') format('truetype'),
+         url('KomikaTitle-Wide-webfont-svg.svg#KomikaTitleWideRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'KomikaTitleAxisRegular';
+    src: url('KomikaTitle-Axis-webfont-eot.eot');
+    src: url('KomikaTitle-Axis-webfont-eot.eot?#iefix') format('embedded-opentype'),
+         url('KomikaTitle-Axis-webfont-woff.woff') format('woff'),
+         url('KomikaTitle-Axis-webfont-ttf.ttf') format('truetype'),
+         url('KomikaTitle-Axis-webfont-svg.svg#KomikaTitleAxisRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+

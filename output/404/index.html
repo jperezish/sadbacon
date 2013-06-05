@@ -9,9 +9,10 @@
   ================================================== -->
 	<meta charset="UTF-8">
 	<title>Page not found | Sad Bacon</title>
-	<meta name="Description" content="We create comics that humanize various animals. Social phobias take years to cultivate. The exploration of these irrational fears is our bread and butter. Many of the characters suffer from some sort of neurosis. Created by Jason Perez.">
+	<meta name="Description" content="I create comics that humanize various animals. Social phobias take years to cultivate. The exploration of these irrational fears is a hobby of mine. Created by Jason Perez.">
 	<meta name="robots" content="NOODP">
-    <meta name="googlebot" content="NOODP">
+  <meta name="googlebot" content="NOODP">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 	<!-- Mobile Specific Metas
   ================================================== -->
@@ -28,23 +29,30 @@
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
-	<!-- Favicons
+	<!-- Favicons and atom feed
 	================================================== -->
 	<link rel="shortcut icon" href="/images/favicon.ico">
 	<!-- <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"> -->
+	<link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Atom feed for all site content">
 
 </head>
 <body>
 	<div class="band header">
-		<div class="container">
-			<div id="logo" class="sixteen columns">
-				<a title="Sad Bacon - comics by Jason Perez" href="http://www.sadbacon.com"><img src="/images/SadBaconLogo400.png" alt="Logo for Sad Bacon."></a>
+		<div class="container clearfix">
+			<div class="four columns">
+				<img id="logo" title="Sad Bacon - comics by Jason Perez" src="/images/sadbacon-site-logo.png" alt="image of the Sad Bacon logo.">
 			</div>
-			<div id="sub-title" class="twelve columns offset-by-four">
-				<h2 title="Next time I'll have two.">I have one comic.</h2>
-			</div>
+				<div class="six columns offset-by-one main-nav">
+					<ul class="clearfix">
+						<li><a id="home-nav" title="Sad Bacon home page." href="/">home</a></li>
+						<li><a id="comic-nav" title="Sad Bacon comic archive." href="/comics/">comics</a></li>
+					</ul>
+				</div>
+				<div class="six columns social-media-div">
+					<a class="social-media" href="http://twitter.com/sadbacon_" title="Follow me on Twitter."><img src="/images/twitter-bird-dark-bgs.png"  alt="The Twitter bird."></a>
+				</div>
 		</div><!-- end container -->
 	</div><!-- end band -->
 
@@ -59,7 +67,9 @@
 	<div class="six columns offset-by-one article-text">
 		<h1 id="important">LOUD NOISES!</h1>
 		<p id="article-lead">I don't know what you did, but now everyone's screaming.</p>
-		<p>I love... <a href="http://sadbacon.com">home page</a>.</p>
+		<p>I love... <a href="/">home page</a>.</p>
+		<p>I love... <a href="/comics/">comic archive</a>.</p>
+		<p>I love... <a href="/404/">error page</a>.</p>
 	</div>
 	<div class="six columns comic-panels">
 		<img src="/images/loud-noises-page-not-found.png" alt="Loud noises! Page not found." />
@@ -76,18 +86,19 @@
 			</div>
 		</div><!-- container -->
 	</div><!-- end band -->
-	<script type="text/javascript">
 
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-38353862-1']);
-	  _gaq.push(['_trackPageview']);
-
-	  (function() {
-	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
-
+	<!-- asynchronous google analytics
+	change the UA-XXXXX-X to be your site's ID -->
+	<script>
+	 var _gaq = [['_setAccount', 'UA-38353862-1'], ['_trackPageview']];
+	 (function(d, t) {
+	  var g = d.createElement(t),
+	      s = d.getElementsByTagName(t)[0];
+	  g.async = true;
+	  g.src = '//www.google-analytics.com/ga.js';
+	  s.parentNode.insertBefore(g, s);
+	 })(document, 'script');
 	</script>
+
 </body>
 </html>

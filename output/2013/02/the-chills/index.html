@@ -9,9 +9,10 @@
   ================================================== -->
 	<meta charset="UTF-8">
 	<title>The Chills - The Narwhal Chronicles | Sad Bacon</title>
-	<meta name="Description" content="The Chills. We meet the narwhal Jerry and his happy go lucky beluga whale pal Muk. This comic is part of the The Narwhal Chronicles series. Created by Jason Perez.">
+	<meta name="Description" content="The Chills. We meet the narwhal Jerry and his happy go lucky beluga whale pal Muk. This comic is part of The Narwhal Chronicles. Created by Jason Perez.">
 	<meta name="robots" content="NOODP">
-    <meta name="googlebot" content="NOODP">
+  <meta name="googlebot" content="NOODP">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 	<!-- Mobile Specific Metas
   ================================================== -->
@@ -28,39 +29,61 @@
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
-	<!-- Favicons
+	<!-- Favicons and atom feed
 	================================================== -->
 	<link rel="shortcut icon" href="/images/favicon.ico">
 	<!-- <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"> -->
+	<link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Atom feed for all site content">
 
 </head>
 <body>
 	<div class="band header">
-		<div class="container">
-			<div id="logo" class="sixteen columns">
-				<a title="Sad Bacon - comics by Jason Perez" href="http://www.sadbacon.com"><img src="/images/SadBaconLogo400.png" alt="Logo for Sad Bacon."></a>
+		<div class="container clearfix">
+			<div class="four columns">
+				<img id="logo" title="Sad Bacon - comics by Jason Perez" src="/images/sadbacon-site-logo.png" alt="image of the Sad Bacon logo.">
 			</div>
-			<div id="sub-title" class="twelve columns offset-by-four">
-				<h2 title="Next time I'll have two.">I have one comic.</h2>
-			</div>
+				<div class="six columns offset-by-one main-nav">
+					<ul class="clearfix">
+						<li><a id="home-nav" title="Sad Bacon home page." href="/">home</a></li>
+						<li><a id="comic-nav" title="Sad Bacon comic archive." href="/comics/">comics</a></li>
+					</ul>
+				</div>
+				<div class="six columns social-media-div">
+					<a class="social-media" href="http://twitter.com/sadbacon_" title="Follow me on Twitter."><img src="/images/twitter-bird-dark-bgs.png"  alt="The Twitter bird."></a>
+				</div>
 		</div><!-- end container -->
 	</div><!-- end band -->
 
 	
   <div class="band post">
-  	<div class="container">
-  		<div class="fifteen columns offset-by-one">
-    		<h2><cite>The Chills</cite></h2>
-    	</div>
+    <div class="container header home-title">
+      <div class="sixteen columns clearfix">
+        <div class="eight columns alpha">
+          <h2 id="article-title"><cite>The Chills</cite></h2>
+        </div>
+        <div class="eight columns omega offset-by-three clearfix browse-comics-nav">
+          <div class="five columns alpha">
+            <ul class="clearfix">
+              <li><h7 id="first-comic" title="This is the first comic." class="comic-viewer-inactive">&#x25C2;&#x25C2; first</h7></li>
+              <li><h7 id="previous-comic" title="This is the first comic." class="comic-viewer-inactive">&#x25C2; previous</h7></li>
+              <li><a id="next-comic" title="View the next comic." href="/2013/02/stupid-little-birds/">next &#x25B8;</a></li>
+              <li><a id="last-comic" title="View the latest posted comic." href="/2013/04/onset-of-fear/">last &#x25B8;&#x25B8;</a></li>
+            </ul>
+          </div>
+          <div class="five columns omega">
+            <h5 id="comic-viewer-text" title="This comic viewer will step through all of the comics posted on this site.">viewing <span>1</span> out of <span>6</span> comics.</h5>
+          </div>
+        </div>
+      </div>
     </div>
     <div id="title-end" class="container">
     	<div class="eight columns offset-by-one">
     		<h5 id="post-details">by Jason Perez, posted on February 10, 2013</h5>
     		</div>
 			<div class="seven columns">
-    		<h4 id="comic-series">The Narwhal Chronicles series</h4>
+    		<h4 id="comic-series">The Narwhal Chronicles</h4>
     	</div>
     </div>
       <div class="container comic">
@@ -107,18 +130,19 @@
 			</div>
 		</div><!-- container -->
 	</div><!-- end band -->
-	<script type="text/javascript">
 
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-38353862-1']);
-	  _gaq.push(['_trackPageview']);
-
-	  (function() {
-	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
-
+	<!-- asynchronous google analytics
+	change the UA-XXXXX-X to be your site's ID -->
+	<script>
+	 var _gaq = [['_setAccount', 'UA-38353862-1'], ['_trackPageview']];
+	 (function(d, t) {
+	  var g = d.createElement(t),
+	      s = d.getElementsByTagName(t)[0];
+	  g.async = true;
+	  g.src = '//www.google-analytics.com/ga.js';
+	  s.parentNode.insertBefore(g, s);
+	 })(document, 'script');
 	</script>
+
 </body>
 </html>
